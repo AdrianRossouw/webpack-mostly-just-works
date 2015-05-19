@@ -1,7 +1,7 @@
 {
   "name": "webpack-slides",
   "version": "0.0.1",
-  "description": "Slides from webpack uber alles presentation",
+  "description": "Slides from webpack presentation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,4 +1,4 @@
-# Webpack Uber Alles presentation.
+# Webpack presentation.
 
 ### Installation
 

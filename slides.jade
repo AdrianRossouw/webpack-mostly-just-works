@@ -1,7 +1,7 @@
 article
 
   section(data-bespoke-state='main-slide', data-bespoke-backdrop='orion')
-    h1 Webpack Über Alles 
+    h1 Webpack: It Mostly Just Works.
     h3 <a href="http://twitter.com/adrianrossouw">@adrianrossouw</a>
 
   section
@@ -32,14 +32,14 @@ article
       li.bullet With the ability to specify inline 'loaders' to use while processing.
         pre
           code.language-javascript.
-            // Use coffee-loader to compile CS on the fly.
-            require('coffee!./slides.coffee');
+            // Use babel-loader to compile ES6 on the fly.
+            require('babel!./slides');
 
       li.bullet These can also be set up in a config file, so you don't have to modify your code.
         pre
           code.language-javascript.
             // webpack.config.js
-            loaders: [ { test: /\.coffee/, loader: "coffee-loader" } ]
+            loaders: [ { test: /\.js/, loader: "babel-loader" } ]
 
   section(data-bespoke-backdrop='plans')
     h2.bullet Webpack can bundle more than just javascript!
